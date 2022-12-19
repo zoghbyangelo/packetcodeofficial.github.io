@@ -1,0 +1,410 @@
+<style>
+
+  .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+
+
+
+
+.header{
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+
+.header ul li.current a {
+  color: orange;
+}
+
+.logo1 img{
+	overflow:hidden;
+	position:absolute;
+	float:right;
+	height:150px;
+	width:125px;
+	margin-left:80px;
+	margin-top:15px;
+	background-color:#56797A;
+	border-radius:30px;
+}
+.logo img{
+	overflow:hidden;
+	position:absolute;
+	float:right;
+	height:150px;
+	width:125px;
+	margin-left:80px;
+	margin-top:15px;
+	background-color:rgb(2,3,129);
+	border-radius:30px;
+	}
+	
+	.logo23 img{
+	overflow:hidden;
+	position:absolute;
+	float:right;
+	height:150px;
+	width:125px;
+	margin-left:80px;
+	margin-top:15px;
+	background-color:#CCC;
+	border-radius:30px;
+}
+
+.logo2 img{
+		overflow:hidden;
+	position:absolute;
+	float:right;
+	height:150px;
+	width:125px;
+	margin-left:80px;
+	margin-top:15px;
+	background-color:#CCC;
+	border-radius:30px;
+}
+
+
+.header ul {
+  list-style-type: none;
+  margin: 0 0 0 200px;
+padding-top:25px;
+padding-bottom:50px;
+  overflow: hidden;
+}
+
+.header ul li{
+	padding-right:30px;
+}
+.header li {
+	float:left;
+}
+
+
+.header li a {
+  display: block;
+  color:rgb(2,3,129);
+  text-align: center;
+  font-weight:bold;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size:25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.header li a:hover {
+ color:#D57800;
+}
+
+.content {
+  position: relative;
+  top: 490px; /* adjust this value to position the content element where you want it */
+  width:100% ; /* adjust this value to set the width of the content element */
+  margin: 0; /* centers the content element horizontally */
+}
+
+.introduction{
+	font-weight:400;
+	line-height:1.5;
+}
+.introduction p {
+	font-size:30px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+	
+
+.introduction h1{
+	font-size:75px;
+	font-weight:bold;
+	color:rgb(2,3,129);
+	font-family:"Courier New", Courier, monospace;
+}
+
+.infosaboutcyprus h1{
+	font-size:60px;
+	font-weight:bold;
+	color:rgb(2,3,129);
+	font-family:"Courier New", Courier, monospace;
+}
+
+.image1 img{
+	margin-left:150px;
+		display:block;
+}
+
+
+
+.infosaboutcyprus{
+	font-weight:400;
+	line-height:1.5;
+}
+
+.infosaboutcyprus p {
+	font-size:30px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.infosaboutcyprus span{
+	font-weight:bold;
+}
+
+
+.history p5{
+	width:50%;
+	display:inline-block;
+}
+
+.history img{
+	margin:auto;
+	display:block;
+}
+
+.history h3{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+	
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links p {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 18px;
+  margin-right:10px;
+  padding-top:12px;
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  color: #D57800;
+}
+
+.nissi img{
+margin:auto;
+display:block;
+}
+
+@media (max-width: 600px) {
+.header ul {
+margin:0 0 0 35px;
+}
+
+.header ul li{
+	padding-right:15px;
+}
+
+
+
+.header li a {
+ padding:0 0 0 0;
+  font-size:15px;
+}
+
+.logo1 img{
+	height:70px;
+	width:58px;
+	margin-left:10px;
+
+}
+
+	.logo23 img{
+
+	height:70px;
+	width:58px;
+	margin-left:10px;
+
+}
+
+.logo2 img{
+
+	height:70px;
+	width:58px;
+	margin-left:10px;
+
+}
+
+
+
+.logo img{
+	height:70px;
+	width:58px;
+	margin-left:10px;
+	}
+	
+	.content {
+  top: 300px;
+}
+.introduction p {
+	font-size:15px;
+}
+	
+
+.introduction h1{
+	font-weight:bold;
+	font-size:40px;
+}
+
+.infosaboutcyprus h1{
+	font-weight:bold;
+	font-size:40px;
+}
+.infosaboutcyprus p {
+	font-size:15px;
+}
+
+
+.copyright {
+  font-size: 10px;
+}
+
+.contact-info p {
+  font-size: 10px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links p {
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.social-links a {
+  font-size: 10px;
+}
+
+
+}
+
+
+@media (min-width: 601px) and (max-width: 980px){
+	.header ul {
+margin:0 0 0 50px;
+}
+
+.header ul li{
+	padding-right:30px;
+}
+
+
+
+.header li a {
+ padding:0 0 0 0;
+ font-size:20px;
+}
+
+.logo1 img{
+	height:70px;
+	width:58px;
+	margin-left:10px;
+
+}
+
+	.logo23 img{
+
+	height:70px;
+	width:58px;
+	margin-left:10px;
+
+}
+
+.logo2 img{
+
+	height:70px;
+	width:58px;
+	margin-left:10px;
+
+}
+
+
+
+.logo img{
+	height:70px;
+	width:58px;
+	margin-left:10px;
+	}
+	
+	.content {
+  top: 600px;
+}
+.introduction p {
+	font-size:15px;
+}
+	
+
+.introduction h1{
+	font-size:40px;
+}
+
+.infosaboutcyprus h1{
+	font-size:40px;
+}
+.infosaboutcyprus p {
+	font-size:15px;
+}
+
+
+.copyright {
+  font-size: 10px;
+}
+
+.contact-info p {
+  font-size: 10px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links p {
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.social-links a {
+  font-size: 10px;
+}
+
+}
+
+
+</style>

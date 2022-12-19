@@ -1,0 +1,56 @@
+<style>
+
+.logo2 img{
+	overflow:hidden;
+	position:absolute;
+	float:right;
+	height:150px;
+	width:125px;
+	margin-left:80px;
+	margin-top:15px;
+	background-color:#FFF;
+	border-radius:30px;
+}
+
+
+.snowflake1 img{
+margin-left:475px;
+margin-right:15px;
+
+}
+.snowflake2 img{
+	margin-left:10px;
+}
+
+
+.pic img{
+ margin-left:150px;
+}
+
+.snowflake1, .snowflake2, h1 {
+   display: inline-block;
+}
+
+@media (min-width: 601px) and (max-width: 980px){
+.snowflake1 img{
+margin-left:200px;
+
+
+}
+
+.pic img{
+ margin-left:20px;
+}
+}
+
+@media (max-width: 600px){
+	.snowflake1 img{
+		margin-left:50px;
+	
+	}
+	.pic img{
+ margin-left:5px;
+}
+
+}
+</style>
